@@ -1,0 +1,13 @@
+<GridView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_fragment_grid_view"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="0dp"
+    android:horizontalSpacing="0dp"
+    android:gravity="center_horizontal"
+    tools:context=".MainActivity" >
+
+</GridView>

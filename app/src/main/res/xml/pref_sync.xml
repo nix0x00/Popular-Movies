@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ListPreference
+        android:title="@string/setting_title"
+        android:defaultValue="@string/pref_sync_defaultValue"
+        android:entries="@array/pref_sett"
+        android:entryValues="@array/pref_set_values"
+        android:summary="@string/summary_text"
+        android:key="@string/pref_sync_key"
+        android:dialogTitle="@string/setting_title" />
+</PreferenceScreen>

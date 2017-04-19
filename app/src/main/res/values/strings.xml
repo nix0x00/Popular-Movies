@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Project1</string>
+    <string name="action">Settings</string>
+    <string name="main_label">Popular Movies</string>
+
+    <string name="setting_title">Change Settings</string>
+    <string name="pref_sync_defaultValue">popular</string>
+    <string name="pref_sync_key">Movies</string>
+
+    <string-array name="pref_sett">
+        <item>Popular Movies</item>
+        <item>High Voted Movies</item>
+        <item>Favorite Movies</item>
+    </string-array>
+
+    <string-array name="pref_set_values">
+        <item>popular</item>
+        <item>rated</item>
+        <item>fav</item>
+    </string-array>
+
+    <string name="summary_text">How would you like your movies to be presented?</string>
+    <string name="demoText">2016</string>
+    <string name="duration">120min</string>
+    <string name="trailer_text">Trailers:</string>
+    <string name="alert_dialogTitle">Network Error!</string>
+    <string name="network_error">Please check your network settings.</string>
+    <string name="reviews">Reviews:</string>
+</resources>
