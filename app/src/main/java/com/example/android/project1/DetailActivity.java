@@ -178,14 +178,14 @@ public class DetailActivity extends AppCompatActivity {
 
         @Override
         protected List<String> doInBackground(Integer... params) {
-            //http://api.themoviedb.org/3/movie/284052?append_to_response=trailers,reviews&api_key=927191753c89d36c971dded337bc19ae
+            
             String baseUrl = "http://api.themoviedb.org/3/movie/";
             String id = params[0].toString();
             String APPEND_PARAM = "append_to_response";
             //baseUrl = baseUrl.concat(id).concat("/videos");
             baseUrl = baseUrl.concat(id);
             String API_PARAM = "api_key";
-            String API_KEY = "927191753c89d36c971dded337bc19ae";
+            String API_KEY = ""; // EDIT THIS 
             /*Uri uri = Uri.parse(baseUrl).buildUpon()
                     .appendQueryParameter(API_PARAM, API_KEY)
                     .build();*/
